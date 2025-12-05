@@ -29,6 +29,9 @@ export default function RootLayout({ children }) {
             <li>
               <Link prefetch={false} href="/about">About</Link>
             </li>
+            <li>
+              <Link href="/blogs">Blogs</Link>
+            </li>
           </ul>
         </nav>
         <hr />
