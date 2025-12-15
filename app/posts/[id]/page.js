@@ -1,7 +1,7 @@
 import getPost from "@/lib/getPost";
 
 export default async function PostPage({ params }) {
-  const { id } = params;
+  const { id } = await params;
   const post = await getPost(id);
   console.log(post);
   return (
